@@ -1,5 +1,7 @@
 #!/bin/bash
 
+VENDOR=lge
+
 function extract() {
     for FILE in `egrep -v '(^#|^$)' $1`; do
         OLDIFS=$IFS IFS=":" PARSING_ARRAY=($FILE) IFS=$OLDIFS

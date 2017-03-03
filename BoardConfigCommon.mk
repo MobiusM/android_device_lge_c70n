@@ -20,6 +20,7 @@ LOCAL_PATH := device/lge/c70n
 
 # Kernel
 BOARD_KERNEL_CMDLINE += vmalloc=508m
+TARGET_KERNEL_CONFIG := c70_global_com_defconfig
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
