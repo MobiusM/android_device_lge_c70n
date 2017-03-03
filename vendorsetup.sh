@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo cm_c70n-userdebug
+add_lunch_combo lineage_c70n-userdebug
 
