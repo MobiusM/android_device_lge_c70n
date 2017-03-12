@@ -231,10 +231,12 @@ vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
+vendor/lib/liblqe.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqdi.so
 vendor/lib/libqdp.so
 vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_helper.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
@@ -242,12 +244,15 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
+vendor/lib/libcneapiclient.so
 
 # Radio
 #-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 #-app/shutdownlistener/shutdownlistener.apk
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
+etc/data/dsi_config.xml
+etc/data/netmgr_config.xml
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
 

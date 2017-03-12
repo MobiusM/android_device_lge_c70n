@@ -56,6 +56,10 @@ PRODUCT_COPY_FILES += \
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8916.conf:system/etc/thermal-engine-8916.conf
+    
+# RIL
+PRODUCT_PACKAGES += \
+    librmnetctl
 
 # Wifi
 PRODUCT_COPY_FILES += \
