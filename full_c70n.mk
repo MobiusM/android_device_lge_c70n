@@ -19,6 +19,6 @@ $(call inherit-product, device/lge/c70n/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := c70n
-PRODUCT_NAME := full_c70n
+PRODUCT_NAME := lineage_c70n
 
 $(call inherit-product-if-exists, vendor/lge/c70n/c70n-vendor.mk)
